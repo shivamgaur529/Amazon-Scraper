@@ -20,6 +20,4 @@ And can be changed according to newer or older versions.
   3. get_details first checked if there was a see more option to display more details and scraped the details.
   4. get_price function has multiple try and except clauses as there were total 4-5 different ways as to where price was stored in the pages.
   5. It shows no specified price for the ones which have no price.
- 
-End of readme.
- 
+  
