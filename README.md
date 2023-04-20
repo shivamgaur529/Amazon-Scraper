@@ -22,4 +22,4 @@ And can be changed according to newer or older versions.
   5. It shows no specified price for the ones which have no price.
   
 # Google Colab button
-[![Open In Colab](https://colab.research.google.com/github/shivamgaur529/Amazon-Scraper/blob/master/ans.ipynb)
+[![Open In Colab](https://colab.research.google.com/github/shivamgaur529/Amazon-Scraper/blob/main/ans.ipynb)
