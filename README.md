@@ -21,5 +21,4 @@ And can be changed according to newer or older versions.
   4. get_price function has multiple try and except clauses as there were total 4-5 different ways as to where price was stored in the pages.
   5. It shows no specified price for the ones which have no price.
   
-# Google Colab button
-[![Open In Colab](https://colab.research.google.com/github/shivamgaur529/Amazon-Scraper/blob/main/ans.ipynb)
+
