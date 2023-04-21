@@ -27,6 +27,7 @@ And can be changed according to newer or older versions.
 
 
 # Approach for bonus task:
+This task is to bypass captcha.
   1. I first found out about a library that could scrape text from an image.
   2. Easyocr is a library that could do it. 
   3. I scraped the img scr of the image and passed it as an argument to one of the functions of the library.
