@@ -4,6 +4,7 @@ This is a product details scraper.
 The following code is written according to the selenium version 3.141.0
 And can be changed according to newer or older versions.
 
+
 # Approach:
   1. To scrape all the details. I first made a loop to loop through every url. To check the availability of url, I checked if it had a product title or not.
   2. If the product was not available or the url threw the 404 error, I printed "{url} not available".
@@ -22,5 +23,14 @@ And can be changed according to newer or older versions.
   5. It shows no specified price for the ones which have no price.
   
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shivamgaur529/Amazon-Scraper/blob/main/ans.ipynb)
+
+
+
+# Approach for bonus task:
+  1. I first found out about a library that could scrape text from an image.
+  2. Easyocr is a library that could do it. 
+  3. I scraped the img scr of the image and passed it as an argument to one of the functions of the library.
+  4. Then put the result text from image in the placeholder and submitted it.
+  5. I looped until the right captcha was submitted with the boundary condition that the driver.current_url is amazon.com
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shivamgaur529/Amazon-Scraper/blob/main/BonusTaskCaptcha.ipynb)
